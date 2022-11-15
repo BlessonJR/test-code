@@ -44,3 +44,13 @@ variable "service_account_name" {
     default = "gke-sa-01"
   
 }
+
+variable "node_pool_name" {
+    default = "app-pool"
+  
+}
+
+variable "machine-type" {
+    default = "e2-medium"
+  
+}
