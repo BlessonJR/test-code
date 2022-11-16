@@ -54,3 +54,20 @@ variable "machine-type" {
     default = "e2-medium"
   
 }
+
+variable "instance-name" {
+    default = "bastion-host-01"
+  
+}
+
+variable "zone" {
+    description = "zone of the bastionhost"
+    default = "us-central1-a"
+  
+}
+
+variable "vm-size" {
+    description = "size of the bastion host"
+    default = "e2-medium"
+  
+}
